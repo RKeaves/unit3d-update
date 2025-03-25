@@ -150,7 +150,7 @@ sudo apt install php8.4-common php8.4-cli php8.4-fpm php8.4-{redis,bcmath,curl,d
 3. **Update Nginx Configuration:**
 
 ```bash
-sudo micro /etc/nginx/sites-available/default
+sudo nano /etc/nginx/sites-available/default
 ```
 
 Find the line with `fastcgi_pass unix:/var/run/php/***.sock;` and update it to point to the PHP 8.4 socket (e.g., `fastcgi_pass unix:/var/run/php/php8.4-fpm.sock;`).
