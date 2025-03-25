@@ -106,7 +106,7 @@ sudo rm -rf /var/lib/meilisearch/data
 - `sudo mv` and `sudo chmod +x`: Move the binary to `/usr/local/bin/` and make it executable.
 - `sudo rm -rf /var/lib/meilisearch/data`: Clears previous Meilisearch data to avoid conflicts.
 
-
+Proceed with the following command:
 
 ```bash
 sudo chmod +x /usr/local/bin/meilisearch
@@ -114,7 +114,7 @@ sudo systemctl start meilisearch
 ```
 
 > **Note:**
-> This step had to be repeated every time
+> This step had to be repeated every time.
 
 **Explanation:**
 - These commands ensure that Meilisearch has the correct executable permissions and is restarted.
