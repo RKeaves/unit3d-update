@@ -183,7 +183,7 @@ cd /var/www/html
 php artisan git:update
 
 ```
-During the update process, UNIT3D diffs all files and prompts the user to choose whether to keep the current version or update to the new one; typically, it is recommended to update all files, but before beginning the update, the most recent backup should be copied to `~/tempBackup`, and after the update, the list of file conflicts is saved as `~/tempBackup/fileConflicts.txt` so that, once the process is complete, these files can be reviewed to determine which changes should be merged or discarded.
+During the update process, UNIT3D differences all files and prompts the user to choose whether to keep the current version or update to the new one; typically, it is recommended to update all files, but before beginning the update, the most recent backup should be copied to `~/tempBackup`, and after the update, the list of file conflicts is saved as `~/tempBackup/fileConflicts.txt` so that, once the process is complete, these files can be reviewed to determine which changes should be merged or discarded.
 
 **Explanation:**
 - `php artisan git:update` initiates the UNIT3D update process by comparing your current files with the updated version.
