@@ -303,19 +303,17 @@ sudo php artisan up
 
 ---
 
-## Troubleshooting & Notes
+## Notes
 
 - **Backup First:** Always backup your installation before starting an update.
-- **Command Explanations:** Each command is annotated with its purpose. Review these to understand the process.
-- **Database Issues:** If you encounter further SQL errors, verify your data integrity and compare with your backup.
 - **Log Files:** Check Laravel and system logs for detailed error messages if something goes wrong.
 
 ---
 
 ## Acknowledgements
 
-This guide is based on community-shared methods and scripts. Special thanks to contributors who helped refine the update process.
+This project was made possible thanks to airclay aka [ericlay](https://github.com/ericlay).
 
 ---
 
-_Enjoy your updated UNIT3D installation! If you have questions or run into issues, feel free to open an issue or pull request with suggestions._
+_If you have questions or run into issues, feel free to open an issue or pull request with suggestions._
