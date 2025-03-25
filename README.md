@@ -153,7 +153,6 @@ sudo apt install php8.4-common php8.4-cli php8.4-fpm php8.4-{redis,bcmath,curl,d
 sudo micro /etc/nginx/sites-available/default
 ```
 
-**Note:**  
 Find the line with `fastcgi_pass unix:/var/run/php/***.sock;` and update it to point to the PHP 8.4 socket (e.g., `fastcgi_pass unix:/var/run/php/php8.4-fpm.sock;`).
 
 4. **Restart Nginx and PHP-FPM, and Remove PHP 8.3:**
