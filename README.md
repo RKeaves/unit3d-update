@@ -165,6 +165,9 @@ Locate the line containing:
    fastcgi_pass unix:/var/run/php/***.sock;
    ```
 
+> **Note:**
+> Replace *** with your specific site identifier (e.g., PSS, unit3d, or php8.4).
+
    and update it to:
    
    ```nginx
@@ -177,11 +180,6 @@ Locate the line containing:
    ```bash
    sudo nginx -t
    ```
-
-
-> **Note:**
-> Replace `***` with your specific site identifier (e.g., `unit3d` or `php8.4`).
-
 
 
 4. **Restart Nginx and PHP-FPM, and Remove PHP 8.3:**
