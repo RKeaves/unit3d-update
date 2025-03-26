@@ -149,11 +149,40 @@ sudo apt install php8.4-common php8.4-cli php8.4-fpm php8.4-{redis,bcmath,curl,d
 
 3. **Update Nginx Configuration:**
 
-```bash
-sudo nano /etc/nginx/sites-available/default
-```
+3.1. Open the Nginx configuration file:
+   ```bash
+   sudo nano /etc/nginx/sites-available/default
+   ```
 
-Find the line with `fastcgi_pass unix:/var/run/php/***.sock;` and update it to point to the PHP 8.4 socket (e.g., `fastcgi_pass unix:/var/run/php/php8.4-fpm.sock;`).
+3.2. Update the `fastcgi_pass Directive` to Use PHP 8.4 Socket
+
+> **Note:**
+> Find the line with `fastcgi_pass unix:/var/run/php/***.sock;` and update it to point to the PHP 8.4 socket (e.g., `fastcgi_pass unix:/var/run/php/php8.4-fpm.sock;`).
+
+
+Locate the line containing:
+   ```nginx
+   fastcgi_pass unix:/var/run/php/***.sock;
+   ```
+
+   and update it to:
+   
+   ```nginx
+   fastcgi_pass unix:/var/run/php/php8.4-fpm.sock;
+   ```
+
+3.3. Save and exit the editor.
+
+3.4. Test the Nginx configuration:
+   ```bash
+   sudo nginx -t
+   ```
+
+
+> **Note:**
+> Replace `***` with your specific site identifier (e.g., `unit3d` or `php8.4`).
+
+
 
 4. **Restart Nginx and PHP-FPM, and Remove PHP 8.3:**
 
