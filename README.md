@@ -335,12 +335,11 @@ sudo php artisan up
 - **Backup First:** Always backup your installation before starting an update.
 - **Log Files:** Check Laravel and system logs for detailed error messages if something goes wrong.
 
+
 ---
+
+_If you have any questions or further issues, please open an issue or submit a pull request with your suggestions._
 
 ## Acknowledgements
 
 This project was made possible thanks to airclay aka [ericlay](https://github.com/ericlay).
-
----
-
-_If you have questions or run into issues, feel free to open an issue or pull request with suggestions._
