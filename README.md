@@ -58,7 +58,7 @@ Regular backups protect your UNIT3D installation. Use PHP Artisan to securely ba
 - [Step 3: Update UNIT3D](#step-3-update-unit3d)
 - [Step 4: Database Migration Fix](#step-4-database-migration-fix)
 - [Step 5: Final Reset & Cleanup Commands](#step-5-final-reset--cleanup-commands)
-- [Troubleshooting & Notes](#troubleshooting--notes)
+- [Notes](#notes)
 - [Acknowledgements](#acknowledgements)
 
 ---
