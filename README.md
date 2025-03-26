@@ -1,4 +1,4 @@
-# UNIT3D Update & Upgrade Tutorial
+# UNIT3D Update Tutorial
 
 ![Upgrade](https://img.shields.io/badge/Upgrade-UNIT3D%20v8.3.3%20%E2%86%92%20v9.0.1%20%7C%20PHP%208.3%20%E2%86%92%20PHP%208.4-yellowgreen)
 
